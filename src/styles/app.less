@@ -1,0 +1,301 @@
+html, body {
+	height: 100%;
+  font-size: 12px;
+}
+.mainView {
+	height: 100%;
+}
+
+//重设form margin
+.search-btn-group .el-form-item{
+  margin-bottom: 12px;
+}
+
+.el-pagination{
+  text-align: right;
+	margin-top: 16px;
+	button,
+	span:not([class*=suffix]){
+		vertical-align: baseline;
+	}
+  .el-pager li{
+    min-width: 24px;
+		vertical-align: baseline;
+  }
+  .el-pager, .el-pager li {
+    vertical-align: baseline;
+  }
+  .btn-prev{
+    min-width: 26px;
+    padding-right: 0;
+  }
+  .btn-next{
+    min-width: 26px;
+    padding-left: 0;
+  }
+  .el-pagination__total{
+    margin-right: 0;
+  }
+  .el-pagination__sizes{
+    margin-right: 0;
+  }
+  .el-pagination__jump{
+    margin-left: 10px;
+  }
+  .el-select .el-input{
+    width: 80px;
+  }
+  .el-select .el-input .el-input__inner{
+    padding-right: 20px;
+  }
+}
+
+.el-button--warning{
+  background: #fd9938;
+  border-color: #fd9938;
+}
+
+.el-button--default{
+  color: #fd9938;
+  border-color: #fd9938;
+}
+
+.el-button--primary{
+  background: #38b4fd;
+	border-color: #38b4fd;
+	&.el-button--default{
+		color: #fff;
+	}
+}
+
+.el-button--danger{
+  background: #ff3a39;
+  border-color: #ff3a39;
+}
+
+.el-button--info{
+  background: #6f6c68;
+  border-color: #6f6c68;
+}
+
+// 以test_2为例
+// 覆盖弹框、过滤样式
+.common-templete-style{
+  .popup-item{
+		margin-bottom: 20px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	.popup-item-title{
+		font-size: 14px;
+		padding-bottom: 6px;
+		border-bottom: 1px solid #e6e6e6;
+		margin-bottom: 12px;
+	}
+	.item-content-list{
+		margin-bottom: 12px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	// 没有数据的提示
+	.no-data-tip {
+		text-align: center;
+		line-height: 60px;
+		font-size: 14px;
+		color: #aaa;
+	}
+	.common-date-range-select-tmpl .date-picker-tmpl{
+		// height: auto;
+	}
+	.common-date-range-select-tmpl .date-picker-tmpl input.el-input__inner {
+		// height: auto;
+  }
+	/* 自定义form样式 S */
+	.form-search{
+		width: 100%;
+		.form-item{
+			display: inline-block;
+			margin-bottom: 10px;
+			vertical-align: bottom;
+		}
+		.form-item-label{
+			color: #aaa;
+			font-size: 12px;
+		}
+		.el-input{
+			display: inline-block;
+			width: 150px;
+		}
+	}
+	.popup-item{
+		.el-input__inner{
+			width: 166px;
+		}
+		.el-textarea__inner{
+			width: 506px;
+			font-size: 12px;
+		}
+		.item-content-list{
+			&.middle{
+				.el-input__inner{
+					width: 200px;
+				}
+			}
+		}
+		.el-form-item{
+			margin-bottom: 10px;
+			&.is-success{
+        .el-input__inner{
+          border-color: #c0c4cc;
+        }
+      }
+			&.middle{
+				display: inline-block;
+				width: 49%;
+				.el-input__inner{
+					width: 200px;
+				}
+				.el-date-editor.el-input{
+					width: 200px;
+					.el-input__inner{
+						padding-left: 40px;
+					}
+				}
+			}
+			&.align-center{
+				.el-form-item__content{
+					margin-left: 0!important;
+					text-align: center;
+					margin-top: 20px;
+				}
+			}
+		}
+		.popup-item-label{
+			display: inline-block;
+			width: 88px;
+			padding-right: 12px;
+			font-size: 12px;
+			color: #aaa;
+			text-align: right;
+			margin-right: -4px;
+		}
+		.el-button{
+			height: 36px;
+			line-height: 36px;
+			font-size: 14px;
+			padding-right: 30px;
+			padding-left: 30px;
+			margin-right: 20px;
+		}
+		.form-button{
+			width: 112px;
+		}
+	}
+	.move-popup-content{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-right: 40px;
+		padding-left: 40px;
+		width: 614px; //根据页面form实际定宽，避免适应宽度过宽，整数防CSS3抖动
+	}
+	/* 自定义form样式 E */
+}
+
+// 由多个组件模块组装起来的公共样式. 参照案列test_1的样式, 结构跟test_1很类似的可以引入
+// 头部分头部, 表格分表格, 分页区域分 分页区域等组装起来的模板, 个性化的单独在独立的模板里面设置
+.common-assembly-template-style {
+  .head-title, .select-condtion {
+    // line-height: 26px;
+    background-color: #fff;
+  }
+  // 头部标题
+  .head-title {
+    font-size: 14px;
+    color: #6F6C68;
+    background-color: #f0f0f0;
+    span {
+      padding: 0 20px;
+      display: inline-block;
+      line-height: 26px;
+      background-color: #fff;
+      color: #6F6C68;
+    }
+  }
+  // 查询条件样式
+  .select-condtion {
+    box-sizing: border-box;
+    padding: 20px 20px 0px;
+    position: relative;
+    z-index: 1;
+    .condition-top {
+      display: inline-block;
+      margin-bottom: 10px;
+      margin-right: 5px;
+    }
+  }
+  // 图区域
+  .echarts-part {
+    min-height: 300px;
+    background-color: #fff;
+  }
+  // 分页区域
+  .pagination-cont{
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  // 每项过滤条件的样式
+  .condition-top {
+    display: inline-block;
+    // 名称
+    .title {
+      font-size: 12px;
+      color: #AAAAAA;
+    }
+    // 输入框
+    .input-text-style {
+      height: 26px;
+      display: inline-block;
+      width: auto;
+    }
+    // 输入框相关样式重置
+    .el-input {
+      input {
+        height: 26px !important;
+        line-height: 26px !important;
+        font-size: 12px;
+        padding-right: 20px;
+        padding-left: 0px;
+        text-indent: 10px;
+      }
+    }
+  }
+  // 选择过滤区域中按钮
+  .select-condtion {
+    .el-query {
+      display: inline-block;
+      line-height: 30px;
+      height: 26px;
+      vertical-align: top;
+    }
+    .el-query-btn {
+      margin-left: 5px;
+      height: 26px;
+      line-height: 1;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      box-sizing: border-box;
+      vertical-align: top;
+    }
+  }
+  // 没有数据的提示
+  .no-data-tip {
+    padding-top: 40px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color: #aaa;
+  }
+}

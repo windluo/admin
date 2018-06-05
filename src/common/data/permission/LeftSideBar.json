@@ -1,0 +1,115 @@
+[
+  {
+    "permission": true,
+    "index": "statics",
+    "title": "营销统计",
+    "icon": "el-icon-caret-right",
+    "hasSubs": true,
+    "subs": [
+      {
+        "permission": true,
+        "index": "main",
+        "title": "首页",
+        "hasSubs": false,
+        "subs": []
+      },
+      {
+        "permission": true,
+        "index": "terminallStatics",
+        "title": "终端统计",
+        "hasSubs": false,
+        "subs": []
+      }
+    ]
+  },
+  {
+    "permission": true,
+    "index": "merchant",
+    "title": "运营商管理",
+    "icon": "el-icon-caret-right",
+    "hasSubs": true,
+    "subs": [
+      {
+        "permission": true,
+        "index": "walletStatics",
+        "title": "钱包统计",
+        "hasSubs": false,
+        "subs": []
+      },
+      {
+        "permission": true,
+        "index": "operatorRights",
+        "title": "运营商权限",
+        "hasSubs": false,
+        "subs": []
+      },
+      {
+        "permission": true,
+        "index": "gridManage",
+        "title": "网点管理",
+        "hasSubs": false,
+        "subs": []
+      }
+    ]
+  },
+  {
+    "permission": true,
+    "index": "addNew",
+    "title": "新增功能",
+    "icon": "el-icon-caret-right",
+    "hasSubs": false,
+    "subs": []
+  },
+  {
+    "permission": true,
+    "index": "ad",
+    "title": "广告管理",
+    "icon": "el-icon-caret-right",
+    "hasSubs": true,
+    "subs": [
+      {
+        "permission": true,
+        "index": "adMessage",
+        "title": "广告信息",
+        "hasSubs": false,
+        "subs": []
+      },
+      {
+        "permission": true,
+        "index": "adRelease",
+        "title": "广告投放",
+        "hasSubs": false,
+        "subs": []
+      }
+    ]
+  },
+  {
+    "permission": true,
+    "index": "birfly",
+    "title": "简单介绍",
+    "icon": "el-icon-caret-right",
+    "hasSubs": false,
+    "subs": []
+  },
+  {
+    "permission": true,
+    "index": "demo",
+    "title": "测试案列",
+    "icon": "el-icon-caret-right",
+    "hasSubs": true,
+    "subs": [
+      {
+        "permission": true,
+        "index": "test-1",
+        "title": "test-1-1-1",
+        "hasSubs": false
+      },
+      {
+        "permission": true,
+        "index": "test-2",
+        "title": "test-1-1-2",
+        "hasSubs": false
+      }
+    ]
+  }
+]

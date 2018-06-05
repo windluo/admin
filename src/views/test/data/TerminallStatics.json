@@ -1,0 +1,220 @@
+[
+  {
+    "date": "2018-03-01",
+    "week": "",
+    "dateValue": "时间",
+    "detailList": [
+      {
+        "name": "有效会员数",
+        "value": "41.1",
+        "ration": "-1.24",
+        "rationName": "周同比",
+        "msg": "周情况",
+        "remarkInfo": "3-1-会员"
+      },{
+        "name": "有效年会员数",
+        "value": "30.4",
+        "ration": "12.54",
+        "rationName": "占比",
+        "msg": "周情况",
+        "remarkInfo": "3-1-效年会员"
+      },{
+        "name": "有效手机包月会员数",
+        "value": "65.1",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "msg": "周情况",
+        "remarkInfo": "3-1-包月会员"
+      },{
+        "name": "当天前续费人数",
+        "value": "53.3",
+        "ration": "19.94",
+        "rationName": "占比",
+        "msg": "周情况",
+        "remarkInfo": "3-1-包月44会员"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-02",
+    "dateValue": "时间",
+    "detailList": [
+      {
+        "name": "有效会员数",
+        "value": "86.5",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效年会员数",
+        "value": "92.1",
+        "ration": "12.54",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效手机包月会员数",
+        "value": "85.7",
+        "ration": "-1.32",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "当天前续费人数",
+        "value": "83.1",
+        "ration": "19.94",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      }
+    ]
+  },
+  {
+    "date": "2018-03-03",
+    "dateValue": "时间",
+    "detailList": [
+      {
+        "name": "有效会员数",
+        "value": "25.5",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效年会员数",
+        "value": "3.6",
+        "ration": "12.54",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效手机包月会员数",
+        "value": "32.2",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "当天前续费人数",
+        "value": "31.2",
+        "ration": "19.94",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      }
+    ]
+  },{
+    "date": "2018-03-04",
+    "dateValue": "时间",
+    "detailList": [
+      {
+        "name": "有效会员数",
+        "value": "25.5",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效年会员数",
+        "value": "3.6",
+        "ration": "12.54",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效手机包月会员数",
+        "value": "32.2",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "当天前续费人数",
+        "value": "31.2",
+        "ration": "19.94",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      }
+    ]
+  },{
+    "date": "2018-03-05",
+    "dateValue": "时间",
+    "detailList": [
+      {
+        "name": "有效会员数",
+        "value": "25.5",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效年会员数",
+        "value": "3.6",
+        "ration": "12.54",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效手机包月会员数",
+        "value": "32.2",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "当天前续费人数",
+        "value": "31.2",
+        "ration": "19.94",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      }
+    ]
+  },{
+    "date": "2018-03-06",
+    "dateValue": "时间",
+    "detailList": [
+      {
+        "name": "有效会员数",
+        "value": "25.5",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效年会员数",
+        "value": "3.6",
+        "ration": "12.54",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效手机包月会员数",
+        "value": "32.2",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "当天前续费人数",
+        "value": "31.2",
+        "ration": "19.94",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      }
+    ]
+  },{
+    "date": "2018-03-07",
+    "dateValue": "时间",
+    "detailList": [
+      {
+        "name": "有效会员数",
+        "value": "25.5",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效年会员数",
+        "value": "3.6",
+        "ration": "12.54",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "有效手机包月会员数",
+        "value": "32.2",
+        "ration": "12.21",
+        "rationName": "周同比",
+        "remarkInfo": "测试评论数据"
+      },{
+        "name": "当天前续费人数",
+        "value": "31.2",
+        "ration": "19.94",
+        "rationName": "占比",
+        "remarkInfo": "测试评论数据"
+      }
+    ]
+  }
+]

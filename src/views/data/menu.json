@@ -1,0 +1,187 @@
+[
+  {
+    "menuNameEn": "root",
+    "orderSeq": 0,
+    "menuUrl": "root",
+    "menuCode": "root",
+    "menuId": 0,
+    "menuName": "菜单根目录",
+    "menuType": "1",
+    "remark": null,
+    "nodes": [
+      {
+        "menuNameEn": "systemManage",
+        "orderSeq": 0,
+        "menuUrl": "systemManage",
+        "menuCode": "base",
+        "menuId": 2,
+        "menuName": "基础信息",
+        "menuType": "1",
+        "remark": "",
+        "nodes": [
+          {
+            "menuNameEn": "autoIncreaseIdManage",
+            "orderSeq": 1,
+            "menuUrl": "autoIncreaseIdManage",
+            "menuCode": "base.autoIncreaseId",
+            "menuId": 5,
+            "menuName": "自增ID管理",
+            "menuType": "1",
+            "remark": "",
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 2
+          },
+          {
+            "menuNameEn": "paramsManage",
+            "orderSeq": 2,
+            "menuUrl": "paramsManage",
+            "menuCode": "base.params",
+            "menuId": 6,
+            "menuName": "系统参数配置",
+            "menuType": "1",
+            "remark": "",
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 2
+          },
+          {
+            "menuNameEn": "districtManage",
+            "orderSeq": 3,
+            "menuUrl": "districtManage",
+            "menuCode": "base.district",
+            "menuId": 7,
+            "menuName": "地区信息维护",
+            "menuType": "1",
+            "remark": "",
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 2
+          }
+        ],
+        "displayType": "1",
+        "parentId": 0
+      },
+      {
+        "menuNameEn": "test",
+        "orderSeq": 0,
+        "menuUrl": "permissionManage",
+        "menuCode": "system",
+        "menuId": 3,
+        "menuName": "系统管理",
+        "menuType": "1",
+        "remark": null,
+        "nodes": [
+          {
+            "menuNameEn": "accountManage",
+            "orderSeq": 0,
+            "menuUrl": "accountManage",
+            "menuCode": "system.account",
+            "menuId": 8,
+            "menuName": "系统账号维护",
+            "menuType": "1",
+            "remark": null,
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 3
+          },
+          {
+            "menuNameEn": "menuManage",
+            "orderSeq": 0,
+            "menuUrl": "menuManage",
+            "menuCode": "system.menu",
+            "menuId": 9,
+            "menuName": "系统菜单维护",
+            "menuType": "1",
+            "remark": null,
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 3
+          },
+          {
+            "menuNameEn": "roleManage",
+            "orderSeq": 0,
+            "menuUrl": "roleManage",
+            "menuCode": "system.role",
+            "menuId": 10,
+            "menuName": "系统角色维护",
+            "menuType": "1",
+            "remark": null,
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 3
+          },
+          {
+            "menuNameEn": "accountRoleManage",
+            "orderSeq": 0,
+            "menuUrl": "accountRoleManage",
+            "menuCode": "system.accountRole",
+            "menuId": 11,
+            "menuName": "账户角色关联",
+            "menuType": "1",
+            "remark": "",
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 3
+          },
+          {
+            "menuNameEn": "dataManage",
+            "orderSeq": 0,
+            "menuUrl": "dataManage",
+            "menuCode": "system.data",
+            "menuId": 12,
+            "menuName": "数据权限配置",
+            "menuType": "1",
+            "remark": "",
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 3
+          },
+          {
+            "menuNameEn": "roleDataManage",
+            "orderSeq": 0,
+            "menuUrl": "roleDataManage",
+            "menuCode": "system.roleData",
+            "menuId": 13,
+            "menuName": "数据权限分配",
+            "menuType": "1",
+            "remark": "",
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 3
+          },
+          {
+            "menuNameEn": "roleMenuManage",
+            "orderSeq": 0,
+            "menuUrl": "roleMenuManage",
+            "menuCode": "system.roleMenu",
+            "menuId": 14,
+            "menuName": "角色菜单分配",
+            "menuType": "1",
+            "remark": "",
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 3
+          },
+          {
+            "menuNameEn": "operationLog",
+            "orderSeq": 0,
+            "menuUrl": "operationLog",
+            "menuCode": "system.log",
+            "menuId": 15,
+            "menuName": "操作日志查询",
+            "menuType": "1",
+            "remark": "",
+            "nodes": [],
+            "displayType": "1",
+            "parentId": 3
+          }
+        ],
+        "displayType": "1",
+        "parentId": 0
+      }
+    ],
+    "displayType": "1",
+    "parentId": -1
+  }
+]

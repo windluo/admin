@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/*
+	所有标签去掉真充和边距
+*/
+body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,blockquote,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+	text-size-adjust:none
+	禁止文字自动调整大小(默认情况下旋转设备的时候文字大小会发生变化)，
+	此属性也不继承，一般加在body上规定整个body的文字都不会自动调整
+*/
+html {
+	color: #333;
+}
+
+body {
+	// line-height: 160%;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	-webkit-text-size-adjust: none;
+	text-size-adjust:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 500;
+}
+img {
+	border: none;
+}
+ol,ul {
+	list-style: none;
+}
+pre, code, tt {
+	font-family: "Lucida Console", "Monaco", monospace;
+}
+sup {
+	top: -0.5em
+}
+sub {
+	bottom: -0.25em
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/*
+	去除iphone ipad 设备默认按钮样式
+	-webkit-appearance: none;
+	消除输入框和按钮的原生外观，在iOS上加上这个属性才能给按钮和输入框自定义样式
+	不同type的input使用这个属性之后表现不一。text、button无样式，radio、checkbox直接消失
+ */
+input, textarea {
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	appearance: none;
+	resize: none;
+  overflow: auto;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: none;
+}
